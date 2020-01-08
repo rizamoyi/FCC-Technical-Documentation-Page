@@ -7,3 +7,36 @@ html {
 *:after {
   box-sizing: inherit;
 }
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  border: 1px solid red;
+}
+nav h1 {
+  text-align: center;
+}
+nav ul {
+  padding: 0;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  overflow: auto;
+  white-space: nowrap;
+  height: 12rem;
+}
+nav li {
+  border-top: 1px solid #4d4e53;
+  list-style: none;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  color: rgb(71, 71, 71);
+}
