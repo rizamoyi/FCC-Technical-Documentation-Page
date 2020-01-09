@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Baskervville&display=swap"
+      href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
       rel="stylesheet"
     />
 
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <nav id="navbar">
-        <h1>JS Documentaion</h1>
+        <header><h1>JS Documentaion</h1></header>
         <ul>
           <li><a href="#Introduction" class="nav-link">Introduction</a></li>
           <li>
@@ -42,7 +42,7 @@
           <li><a href="#Constants" class="nav-link">Constants</a></li>
           <li><a href="#Data_types" class="nav-link">Data types</a></li>
           <li>
-            <a href="#if_else_statement" class="nav-link"
+            <a href="#if...else_statement" class="nav-link"
               >if...else statement</a
             >
           </li>
@@ -60,7 +60,7 @@
 
       <main id="main-doc">
         <section id="Introduction" class="main-section">
-          <h1>Introduction</h1>
+          <header><h1>Introduction</h1></header>
           <p>
             JavaScript is a cross-platform, object-oriented scripting language.
             It is a small and lightweight language. Inside a host environment
@@ -94,7 +94,7 @@
           </ul>
         </section>
         <section id="What_you_should_already_know" class="main-section">
-          <h1>What you should already know</h1>
+          <header><h1>What you should already know</h1></header>
           <p>This guide assumes you have the following basic background:</p>
           <ul>
             <li>
@@ -109,7 +109,7 @@
           </ul>
         </section>
         <section id="Javascript_and_Java" class="main-section">
-          <h1>JavaScript and Java</h1>
+          <header><h1>JavaScript and Java</h1></header>
           <p>
             JavaScript and Java are similar in some ways but fundamentally
             different in some others. The JavaScript language resembles Java but
@@ -138,7 +138,7 @@
           </p>
         </section>
         <section id="Hello_world" class="main-section">
-          <h1>Hello world</h1>
+          <header><h1>Hello world</h1></header>
           <p>
             To get started with writing JavaScript, open the Scratchpad and
             write your first "Hello world" JavaScript code:
@@ -155,7 +155,7 @@
           </p>
         </section>
         <section id="Variables" class="main-section">
-          <h1>Variables</h1>
+          <header><h1>Variables</h1></header>
           <p>
             You use variables as symbolic names for values in your application.
             The names of variables, called identifiers, conform to certain
@@ -178,7 +178,7 @@
           </p>
         </section>
         <section id="Declaring_variables" class="main-section">
-          <h1>Declaring variables</h1>
+          <header><h1>Declaring variables</h1></header>
           <p>You can declare a variable in three ways:</p>
           <p>With the keyword var. For example,</p>
           <div class="code">
@@ -205,7 +205,7 @@
           </p>
         </section>
         <section id="Variable_scope" class="main-section">
-          <h1>Variable scope</h1>
+          <header><h1>Variable scope</h1></header>
           <p>
             When you declare a variable outside of any function, it is called a
             global variable, because it is available to any other code in the
@@ -237,7 +237,7 @@
           </div>
         </section>
         <section id="Global_variables" class="main-section">
-          <h1>Global variables</h1>
+          <header><h1>Global variables</h1></header>
           <p>
             Global variables are in fact properties of the global object. In web
             pages the global object is window, so you can set and access global
@@ -252,7 +252,7 @@
           </p>
         </section>
         <section id="Constants" class="main-section">
-          <h1>Constants</h1>
+          <header><h1>Constants</h1></header>
           <p>
             You can create a read-only, named constant with the const keyword.
             The syntax of a constant identifier is the same as for a variable
@@ -296,7 +296,7 @@
           </div>
         </section>
         <section id="Data_types" class="main-section">
-          <h1>Data types</h1>
+          <header><h1>Data types</h1></header>
           <p>The latest ECMAScript standard defines seven data types:</p>
           <ul>
             <li>Six data types that are primitives:</li>
@@ -318,8 +318,8 @@
             <li>and Object</li>
           </ul>
         </section>
-        <section id="if_else_statement" class="main-section">
-          <h1>if...else statement</h1>
+        <section id="if...else_statement" class="main-section">
+          <header><h1>if...else statement</h1></header>
           <p>
             Use the if statement to execute a statement if a logical condition
             is true. Use the optional else clause to execute a statement if the
@@ -384,7 +384,7 @@
           </div>
         </section>
         <section id="while_statement" class="main-section">
-          <h1>while statement</h1>
+          <header><h1>while statement</h1></header>
           <p>
             A while statement executes its statements as long as a specified
             condition evaluates to true. A while statement looks as follows:
@@ -411,7 +411,7 @@
             The following while loop iterates as long as n is less than three:
           </p>
           <div class="code">
-            <code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
+            <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
           </div>
           <p>
             With each iteration, the loop increments n and adds that value to x.
@@ -423,12 +423,12 @@
             <li>After the third pass: n = 3 and x = 6</li>
           </ul>
           <p>
-            After completing the third pass, the condition n < 3 is no longer
+            After completing the third pass, the condition n &lt; 3 is no longer
             true, so the loop terminates.
           </p>
         </section>
         <section id="Function_declarations" class="main-section">
-          <h1>Function declarations</h1>
+          <header><h1>Function declarations</h1></header>
           <p>
             A function definition (also called a function declaration, or
             function statement) consists of the function keyword, followed by:
@@ -468,7 +468,7 @@
           </p>
         </section>
         <section id="Reference" class="main-section">
-          <h1>Reference</h1>
+          <header><h1>Reference</h1></header>
           <ul>
             <li>
               All the documentation in this page is taken from
