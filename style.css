@@ -55,8 +55,9 @@ nav li {
   border-radius: 0.3rem;
   margin-left: 1rem;
 }
-#Data_types ul li {
+#Data_types ul .inner {
   list-style: circle;
+  margin-left: 4rem;
   padding: 0.5rem;
 }
 
